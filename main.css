@@ -1,0 +1,53 @@
+.col1{
+    height: 60px;
+}
+.zone1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.zone2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.zone3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.col2{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.affiche1 ,.affiche2,.affiche3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.face{
+    height: 225px;
+    width: 225px;
+}
+.pile{
+    height: 225px;
+    width: 225px;
+}
+.col3{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.red{
+    background-color: red;
+}
+.red:hover{
+    background-color: red;
+}
+.lancer,.pseudo{
+    width: 160px;
+}
