@@ -6,25 +6,12 @@ let afficherManche = document.querySelector('.afficherManche')
 let affiche1= document.querySelector('.affiche1')
 let affiche2= document.querySelector('.affiche2')
 let affiche3= document.querySelector('.affiche3')
+pseudo = document.querySelector('.pseudo')
+lancerDemandee = document.querySelector('.lancer')
 let score = [IA=0,player=0]
-let info = [pseudo="" , lancerDemandee=""]
 
-lancerDirectement.addEventListener('click',()=>{
-    let template = `      <input type="number" max="9" min="0" maxlength="1" size="1" placeholder="nombre de manche:" class="lancer">
-      <input type="text" placeholder="votre pseudo" class="pseudo">`
-
-    afficherManche.innerHTML=template;
-
-    pseudo = document.querySelector('.pseudo')
-    lancerDemandee = document.querySelector('.lancer')
-
-    button.addEventListener('click',()=>{
-        StarAndStopGame();
-    })
-
-})
-lancerConnection.addEventListener('click',()=>{
-    window.location.href="page2.html"
+button.addEventListener('click',()=>{
+    StarAndStopGame();
 })
 function StarAndStopGame(){
     if(lancerDemandee.value>=1 && lancerDemandee.value<=9 ){
@@ -33,8 +20,8 @@ function StarAndStopGame(){
             startGame()
         }
         else {
-                let template =`<h4> vous avez pas indiquer votre pseudo</h4>`
-                affiche1.innerHTML=template
+            let template =`<h4> vous avez pas indiquer votre pseudo</h4>`
+            affiche1.innerHTML=template
         }
     }
     else{

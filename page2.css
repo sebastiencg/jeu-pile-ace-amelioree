@@ -1,0 +1,71 @@
+.col1{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.col2{
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.affiche1,.affiche2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.cree-compte{
+    margin-right: 20px;
+}
+.formulaire{
+    border: solid black ;
+    border-radius: 20px;
+    height: 550px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon{
+    cursor: pointer;
+}
+.envoyer{
+    background-color: aqua;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.for-mdp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lien{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+.login{
+    border: solid black ;
+    border-radius: 20px;
+    height: 250px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.connection{
+    background-color: aqua;
+    border-radius: 10px;
+    cursor: pointer;
+}
